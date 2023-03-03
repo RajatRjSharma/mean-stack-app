@@ -6,6 +6,7 @@ angular-app/tmp
 angular-app/out-tsc
 angular-app/bazel-out
 angular-app/.angular
+angular-app/.vscode
 
 # Node
 angular-app/node_modules
