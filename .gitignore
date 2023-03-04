@@ -7,9 +7,16 @@ angular-app/out-tsc
 angular-app/bazel-out
 angular-app/.angular
 angular-app/.vscode
+nodejs/dist
+nodejs/tmp
+nodejs/out-tsc
+nodejs/bazel-out
+nodejs/.angular
+nodejs/.vscode
 
 # Node
 angular-app/node_modules
+nodejs/node_modules
 npm-debug.log
 yarn-error.log
 

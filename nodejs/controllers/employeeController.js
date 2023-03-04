@@ -2,7 +2,7 @@ import express from "express";
 import { Employee } from "../models/employee.js";
 import mongoose from "mongoose";
 
-const router = express.Router();
+export const router = express.Router();
 
 router.get("/", (req, res) => {
   Employee.find()
@@ -82,5 +82,3 @@ router.delete("/:id", (req, res) => {
         console.log("Error in retriving employee by ID : " + err);
       });
 });
-
-export default router;
